@@ -1,0 +1,46 @@
+/* components/BookList.module.css */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .bookList {
+    padding: 0;
+  }
+  
+  .bookItem {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #252525; /* Slightly lighter background */
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bookItem strong {
+    color: #00bcd4;
+  }
+  
+  .bookItem button {
+    background-color: #e91e63; /* Red button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .bookItem button:hover {
+    background-color: #c2185b;
+  }
+  
